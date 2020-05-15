@@ -22,7 +22,7 @@ const game = () => {
         const hands = document.querySelectorAll(".hands img");
 
         hands.forEach(hand => {
-            hand.addEventListener("animationend", function() {
+            hand.addEventListener("animationend", () => {
                 this.style.animation = "";
             //reset to rock??
             });
@@ -32,7 +32,7 @@ const game = () => {
         const computerOptions = ["rock", "paper", "scissors"];
 
         options.forEach(option => {
-            option.addEventListener("click", function() {
+            option.addEventListener("click", () => {
             //computer's choice
             const computerNumber = Math.floor(Math.random()* 3);
             const computerChoice = computerOptions[computerNumber];
