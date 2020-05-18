@@ -36,7 +36,8 @@ const game = () => {
             //computer's choice
             const computerNumber = Math.floor(Math.random()* 3);
             const computerChoice = computerOptions[computerNumber];
-
+            
+            //playerChoice = this.textContent
             setTimeout(() => {
                 //Here is where we call compare hands
                 compareHands(this.textContent, computerChoice);
