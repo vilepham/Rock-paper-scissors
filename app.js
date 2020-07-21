@@ -120,26 +120,3 @@ const game = () => {
 };
 
 game();
-    
-            //update image
-                //playerHand.src = '${this.textContent}.png';
-                //computerHand.src = '${conputerChoice}.png';
-
-            //call compareHands
-            //compareHands(this.textContent, computerChoice);
-
-        //update score
-            //playerScore.textContent = pScore;
-            //computerScore.textContent = cScore;
-        //compare playerChoice & computerChoice (if/else)
-            //end each if/else with  return
-            // update score pScore cScore++
-            //call update score function
-
-            //add animations by .style
-            //loop eventlistener animationend
-
-    //call inner functions
-
-//call functions
-
